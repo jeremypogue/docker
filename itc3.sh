@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo curl -sSL https://get.docker.com | sh
 sudo docker run -it -d --name itc3vpn --restart always --privileged --device=/dev/net/tun jeremypogue/picontainer
